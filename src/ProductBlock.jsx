@@ -23,13 +23,23 @@ const products = [
     "stockvalue" : "$15.00",
     "image": "./image/foundation.jpeg",
     "addToCartButton": "View Options",
-    "sale" : false
+    "sale" : false,
+    "star1" :true,
+    "star2" :true,
+    "star3" :true,
+    "star4" :true,
+    "star5" :false,
   },
   {
     "name": "Mascara",
     "price": "$15.00",
     "image": "./image/mascara.jpeg",
     "addToCartButton": "Add to Cart",
+    "star1" :true,
+    "star2" :true,
+    "star3" :true,
+    "star4" :false,
+    "star5" :false,
     "sale" : true,
     "offerprice" : "$20.00"
   },
@@ -38,6 +48,11 @@ const products = [
     "price": "$20.00",
     "image": "./image/lipstick.jpeg",
     "addToCartButton": "Add to Cart",
+    "star1" :true,
+    "star2" :true,
+    "star3" :false,
+    "star4" :false,
+    "star5" :false,
     "sale" : true,
     "offerprice" : "$25.00"
   },
@@ -46,6 +61,11 @@ const products = [
     "price": "$18.00",
     "image": "./image/blush.jpeg",
     "addToCartButton": "Add to Cart",
+    "star1" :true,
+    "star2" :true,
+    "star3" :true,
+    "star4" :false,
+    "star5" :false,
     "sale" : false
   },
   {
@@ -53,6 +73,11 @@ const products = [
     "price": "$35.00",
     "image": "./image/eyeshadow.jpeg",
     "addToCartButton": "Add to Cart",
+    "star1" :true,
+    "star2" :true,
+    "star3" :true,
+    "star4" :false,
+    "star5" :false,
     "sale" : false
   },
   {
@@ -60,6 +85,11 @@ const products = [
     "price": "$22.00",
     "image": "./image/consealer.jpeg",
     "addToCartButton": "Add to Cart",
+    "star1" :true,
+    "star2" :true,
+    "star3" :true,
+    "star4" :true,
+    "star5" :true,
     "sale" : true,
     "offerprice" : "$30.00"
   },
@@ -68,6 +98,11 @@ const products = [
     "price": "$16.00",
     "image": "./image/eyeliner.png",
     "addToCartButton": "Add to Cart",
+    "star1" :true,
+    "star2" :false,
+    "star3" :false,
+    "star4" :false,
+    "star5" :false,
     "sale" : false
   },
   {
@@ -75,6 +110,11 @@ const products = [
     "price": "$28.00",
     "image": "./image/highlighter.jpeg",
     "addToCartButton": "Add to Cart",
+    "star1" :true,
+    "star2" :true,
+    "star3" :true,
+    "star4" :false,
+    "star5" :false,
     "sale" : true,
     "offerprice" : "$35.00"
   },
@@ -83,6 +123,11 @@ const products = [
     "price": "$24.00",
     "image": "./image/settingspray.jpeg",
     "addToCartButton": "Add to Cart",
+    "star1" :true,
+    "star2" :true,
+    "star3" :true,
+    "star4" :true,
+    "star5" :false,
     "sale" : false
   },
   {
@@ -90,6 +135,11 @@ const products = [
     "price": "$30.00",
     "image": "./image/primer.jpeg",
     "addToCartButton": "Add to Cart",
+    "star1" :true,
+    "star2" :true,
+    "star3" :true,
+    "star4" :true,
+    "star5" :true,
     "sale" : false
   },
   {
@@ -97,6 +147,11 @@ const products = [
     "price": "$27.00",
     "image": "./image/bronzer.jpeg",
     "addToCartButton": "Add to Cart",
+    "star1" :true,
+    "star2" :true,
+    "star3" :true,
+    "star4" :true,
+    "star5" :false,
     "sale" : false
   },
   {
@@ -104,6 +159,11 @@ const products = [
     "price": "$18.00",
     "image": "./image/lipgloss.jpeg",
     "addToCartButton": "Add to Cart",
+    "star1" :true,
+    "star2" :true,
+    "star3" :true,
+    "star4" :true,
+    "star5" :false,
     "sale" : false
   },
   {
@@ -111,6 +171,11 @@ const products = [
     "price": "$12.00",
     "image": "./image/nailpolish.jpeg",
     "addToCartButton": "Add to Cart",
+    "star1" :true,
+    "star2" :true,
+    "star3" :false,
+    "star4" :false,
+    "star5" :false,
     "sale" : true,
     "offerprice" : "$20.00"
   },
@@ -120,6 +185,11 @@ const products = [
     "price": "$19.00",
     "image": "./image/browgel.png",
     "addToCartButton": "Add to Cart",
+    "star1" :true,
+    "star2" :false,
+    "star3" :false,
+    "star4" :false,
+    "star5" :false,
     "sale" : false
   },
   {
@@ -127,6 +197,11 @@ const products = [
     "price": "$33.00",
     "image": "./image/countor.jpeg",
     "addToCartButton": "Add to Cart",
+    "star1" :true,
+    "star2" :true,
+    "star3" :true,
+    "star4" :true,
+    "star5" :false,
     "sale" : false
   },
   {
@@ -134,6 +209,11 @@ const products = [
     "price": "$13.00",
     "image": "./image/lipliner.jpeg",
     "addToCartButton": "Add to Cart",
+    "star1" :true,
+    "star2" :true,
+    "star3" :true,
+    "star4" :false,
+    "star5" :false,
     "sale" : false
   },
   {
@@ -141,6 +221,11 @@ const products = [
     "price": "$40.00",
     "image": "./image/brush.jpeg",
     "addToCartButton": "Add to Cart",
+    "star1" :true,
+    "star2" :true,
+    "star3" :true,
+    "star4" :true,
+    "star5" :false,
     "sale" : true,
     "offerprice" : "$50.00"
   },
@@ -149,6 +234,11 @@ const products = [
     "price": "$26.00",
     "image": "./image/tint.jpeg",
     "addToCartButton": "Add to Cart",
+    "star1" :true,
+    "star2" :true,
+    "star3" :false,
+    "star4" :false,
+    "star5" :false,
     "sale" : false
   },
   {
@@ -156,6 +246,11 @@ const products = [
     "price": "$22.00",
     "image": "./image/bbcream.jpeg",
     "addToCartButton": "Add to Cart",
+    "star1" :true,
+    "star2" :true,
+    "star3" :true,
+    "star4" :true,
+    "star5" :false,
     "sale" : false
   },
   {
@@ -163,6 +258,11 @@ const products = [
     "price": "$29.00",
     "image": "./image/settingpowder.jpeg",
     "addToCartButton": "Add to Cart",
+    "star1" :true,
+    "star2" :true,
+    "star3" :true,
+    "star4" :false,
+    "star5" :false,
     "sale" : true,
     "offerprice" : "$35.00"
   }

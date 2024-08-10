@@ -86,9 +86,18 @@ height: 180px;
 }
 .priceValue{
   font-size: 19px;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
     font-weight: 600;
     margin-top: 10px;
+}
+.ratingStar{
+  margin-bottom: 25px;
+}
+.ratingStar .fa-star{
+  color: #cacaca;
+}
+.ratingStar .checked{
+  color: orange;
 }
 .offerValue{
   color:#b5b5b5;

@@ -11,6 +11,13 @@ function Product({ product, addItems }) {
           <p className="card-text priceValue">
             {product.sale && <del className="offerValue">{product.offerprice}</del>} {product.price}
           </p>
+          <div className="ratingStar">
+          <span className={`fa fa-star ${product.star1 && "checked"}  `}></span>
+          <span className={`fa fa-star ${product.star2 && "checked"}  `}></span>
+          <span className={`fa fa-star ${product.star3 && "checked"}  `}></span>
+          <span className={`fa fa-star ${product.star4 && "checked"}  `}></span>
+          <span className={`fa fa-star ${product.star5 && "checked"}  `}></span>
+          </div>
           <button
             onClick={() => addItems(product)}
             className="btn btnPrimary"
