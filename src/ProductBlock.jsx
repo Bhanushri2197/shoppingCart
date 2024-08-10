@@ -21,14 +21,14 @@ const products = [
     "price": "$25.00",
     "stockout" : true,
     "stockvalue" : "$15.00",
-    "image": "src/assets/foundation.jpeg",
+    "image": "./image/foundation.jpeg",
     "addToCartButton": "View Options",
     "sale" : false
   },
   {
     "name": "Mascara",
     "price": "$15.00",
-    "image": "src/assets/mascara.jpeg",
+    "image": "./image/mascara.jpeg",
     "addToCartButton": "Add to Cart",
     "sale" : true,
     "offerprice" : "$20.00"
@@ -36,7 +36,7 @@ const products = [
   {
     "name": "Lipstick",
     "price": "$20.00",
-    "image": "src/assets/lipstick.jpeg",
+    "image": "./image/lipstick.jpeg",
     "addToCartButton": "Add to Cart",
     "sale" : true,
     "offerprice" : "$25.00"
@@ -44,21 +44,21 @@ const products = [
   {
     "name": "Blush",
     "price": "$18.00",
-    "image": "src/assets/blush.jpeg",
+    "image": "./image/blush.jpeg",
     "addToCartButton": "Add to Cart",
     "sale" : false
   },
   {
     "name": "Eyeshadow Palette",
     "price": "$35.00",
-    "image": "src/assets/eyeshadow.jpeg",
+    "image": "./image/eyeshadow.jpeg",
     "addToCartButton": "Add to Cart",
     "sale" : false
   },
   {
     "name": "Concealer",
     "price": "$22.00",
-    "image": "src/assets/consealer.jpeg",
+    "image": "./image/consealer.jpeg",
     "addToCartButton": "Add to Cart",
     "sale" : true,
     "offerprice" : "$30.00"
@@ -66,14 +66,14 @@ const products = [
   {
     "name": "Eyeliner",
     "price": "$16.00",
-    "image": "src/assets/eyeliner.png",
+    "image": "./image/eyeliner.png",
     "addToCartButton": "Add to Cart",
     "sale" : false
   },
   {
     "name": "Highlighter",
     "price": "$28.00",
-    "image": "src/assets/highlighter.jpeg",
+    "image": "./image/highlighter.jpeg",
     "addToCartButton": "Add to Cart",
     "sale" : true,
     "offerprice" : "$35.00"
@@ -81,35 +81,35 @@ const products = [
   {
     "name": "Setting Spray",
     "price": "$24.00",
-    "image": "src/assets/settingspray.jpeg",
+    "image": "./image/settingspray.jpeg",
     "addToCartButton": "Add to Cart",
     "sale" : false
   },
   {
     "name": "Primer",
     "price": "$30.00",
-    "image": "src/assets/primer.jpeg",
+    "image": "./image/primer.jpeg",
     "addToCartButton": "Add to Cart",
     "sale" : false
   },
   {
     "name": "Bronzer",
     "price": "$27.00",
-    "image": "src/assets/bronzer.jpeg",
+    "image": "./image/bronzer.jpeg",
     "addToCartButton": "Add to Cart",
     "sale" : false
   },
   {
     "name": "Lip Gloss",
     "price": "$18.00",
-    "image": "src/assets/lipgloss.jpeg",
+    "image": "./image/lipgloss.jpeg",
     "addToCartButton": "Add to Cart",
     "sale" : false
   },
   {
     "name": "Nail Polish",
     "price": "$12.00",
-    "image": "src/assets/nailpolish.jpeg",
+    "image": "./image/nailpolish.jpeg",
     "addToCartButton": "Add to Cart",
     "sale" : true,
     "offerprice" : "$20.00"
@@ -118,28 +118,28 @@ const products = [
   {
     "name": "Brow Gel",
     "price": "$19.00",
-    "image": "src/assets/browgel.png",
+    "image": "./image/browgel.png",
     "addToCartButton": "Add to Cart",
     "sale" : false
   },
   {
     "name": "Contour Kit",
     "price": "$33.00",
-    "image": "src/assets/countor.jpeg",
+    "image": "./image/countor.jpeg",
     "addToCartButton": "Add to Cart",
     "sale" : false
   },
   {
     "name": "Lip Liner",
     "price": "$13.00",
-    "image": "src/assets/lipliner.jpeg",
+    "image": "./image/lipliner.jpeg",
     "addToCartButton": "Add to Cart",
     "sale" : false
   },
   {
     "name": "Makeup Brush Set",
     "price": "$40.00",
-    "image": "src/assets/brush.jpeg",
+    "image": "./image/brush.jpeg",
     "addToCartButton": "Add to Cart",
     "sale" : true,
     "offerprice" : "$50.00"
@@ -147,21 +147,21 @@ const products = [
   {
     "name": "Tinted Moisturizer",
     "price": "$26.00",
-    "image": "src/assets/tint.jpeg",
+    "image": "./image/tint.jpeg",
     "addToCartButton": "Add to Cart",
     "sale" : false
   },
   {
     "name": "BB Cream",
     "price": "$22.00",
-    "image": "src/assets/bbcream.jpeg",
+    "image": "./image/bbcream.jpeg",
     "addToCartButton": "Add to Cart",
     "sale" : false
   },
   {
     "name": "Setting Powder",
     "price": "$29.00",
-    "image": "src/assets/settingpowder.jpeg",
+    "image": "./image/settingpowder.jpeg",
     "addToCartButton": "Add to Cart",
     "sale" : true,
     "offerprice" : "$35.00"
